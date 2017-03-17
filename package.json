@@ -1,0 +1,26 @@
+{
+    "name": "express-boilerplate",
+    "version": "1.0.0",
+    "description": "express boilerplate",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js -e js,json,html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/stefanpiazza/express-boilerplate.git"
+    },
+    "author": "Stefan Piazza",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/stefanpiazza/express-boilerplate/issues"
+    },
+    "homepage": "https://github.com/stefanpiazza/express-boilerplate#readme",
+    "devDependencies": {
+        "express": "^4.14.1",
+        "mustache-express": "^1.2.4",
+        "nodemon": "^1.11.0",
+        "yarn": "^0.21.3"
+    }
+}
